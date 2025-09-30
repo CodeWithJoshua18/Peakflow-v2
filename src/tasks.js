@@ -2,8 +2,7 @@ const Task = {
   id: crypto.randomUUID(),   
   title: "",                 
   description: "",           
-  priority: "",              
-  deadline: "",              
+  priority: "",                           
   status: "Todo",            
   createdAt: new Date().toISOString(), 
 };
